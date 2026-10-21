@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Stats from "@/components/Stats";
 import Programs from "@/components/Programs";
+import WhyUs from "@/components/WhyUs";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <Stats />
       <Programs />
+      <WhyUs />
     </main>
   );
 }
