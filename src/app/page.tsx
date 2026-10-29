@@ -6,6 +6,8 @@ import WhyUs from "@/components/WhyUs";
 import Trainers from "@/components/Trainer";
 import Memberships from "@/components/Memberships";
 import Testimonials from "@/components/Testimonials";
+import Booking from "@/components/Booking";
+import FAQ from "@/components/FAQ";
 
 export default function Home() {
   return (
@@ -18,6 +20,8 @@ export default function Home() {
       <Trainers />
       <Memberships />
       <Testimonials />
+      <Booking />
+      <FAQ />
     </main>
   );
 }
