@@ -39,7 +39,7 @@ export default function Hero() {
         <div className="absolute inset-0 bg-gradient-to-r from-[#080A08] via-transparent to-[#080A08]"></div>
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+      <div className="relative z-10 max-w-[1440px] mx-auto px-4 sm:px-8 lg:px-12 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-8 items-center">
           
           {/* ================= LEFT COLUMN: Typography & CTAs ================= */}
