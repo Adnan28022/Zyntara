@@ -3,6 +3,9 @@ import Hero from "@/components/Hero";
 import Stats from "@/components/Stats";
 import Programs from "@/components/Programs";
 import WhyUs from "@/components/WhyUs";
+import Trainers from "@/components/Trainer";
+import Memberships from "@/components/Memberships";
+import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
   return (
@@ -12,6 +15,9 @@ export default function Home() {
       <Stats />
       <Programs />
       <WhyUs />
+      <Trainers />
+      <Memberships />
+      <Testimonials />
     </main>
   );
 }
