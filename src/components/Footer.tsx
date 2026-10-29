@@ -13,8 +13,7 @@ import {
   Clock, 
   MapPin, 
   ShieldCheck,
-  Disc,
-  Volume2
+  Disc
 } from "lucide-react";
 
 // Social Media Icons from react-icons/fa6
@@ -28,7 +27,7 @@ import {
 export default function Footer() {
   const [email, setEmail] = useState("");
   const [isSubscribed, setIsSubscribed] = useState(false);
-  const [timeString, setTimeString] = useState<string>("");
+  const [timeString, setTimeString] = useState<string>("00:00:00");
   const [mounted, setMounted] = useState(false);
 
   // Client-safe live clock to avoid SSR hydration mismatch
@@ -322,7 +321,7 @@ export default function Footer() {
         {/* Bottom Utility Bar & Magnetic Scroll-to-Top */}
         <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-mono text-[#A0A69C]">
           <div>
-            © {new Date().getFullYear()} ZYNTARA ATHLETICS INC. ALL PROTOCOLS RESERVED.
+            © 2026 ZYNTARA ATHLETICS INC. ALL PROTOCOLS RESERVED.
           </div>
 
           {/* Smooth Kinetic Scroll-to-Top Button */}
